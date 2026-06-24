@@ -1,0 +1,6 @@
+{
+  "name": "日本のマイナー法律クイズ",
+  "description": "日常生活に潜む意外なマイナー法律や、明治時代から生き続ける珍法律を学べるクイズアプリ。図鑑、ライフ、連勝ボーナス機能、e-Gov直接リンク解説付き。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
