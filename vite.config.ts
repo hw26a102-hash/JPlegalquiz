@@ -4,8 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
-    quiz-JP-legal
+  return { 
+    base: process.env.GITHUB_ACTIONS ? '/JPlegalquiz/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
